@@ -8,14 +8,14 @@ const AnimatedText = ({ text , type ,delay }) => {
   };
 
   return (
-    <motion.div
+    <motion.span
       initial="hidden"
       animate="visible"
       transition={{ duration: 0.5, ease: type ,delay : delay || 0 }}
       variants={variants}
     >
       {text}
-    </motion.div>
+    </motion.span>
   );
 };
 

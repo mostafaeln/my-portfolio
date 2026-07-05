@@ -3,13 +3,13 @@ import CButton from '../components/Button';
 import styles from './Home.module.css';
 import Lottie from 'lottie-react';
 import AnimationData from './Office_Animation.json';
-import React, { useRef } from 'react';
+import React from 'react';
 
 function Home() {
-  const experienceRef = useRef(null);
-  const projectsRef = useRef(null);
-  const skillsRef = useRef(null);
-  const contactRef = useRef(null);
+  // const experienceRef = useRef(null);
+  // const projectsRef = useRef(null);
+  // const skillsRef = useRef(null);
+  // const contactRef = useRef(null);
 
   return (
     <div className="bg-[#002f7b] min-h-screen flex flex-col justify-center items-center px-4">
@@ -30,16 +30,16 @@ function Home() {
         <Lottie className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[700px] h-auto rounded-lg mt-10 lg:mt-0 lg:ml-20" animationData={AnimationData} />
       </section>
       <section className="grid grid-cols-1 sm:grid-cols-4  sm:flex-row justify-center sm:justify-around items-center w-full mt-10  mb-10  gap-4 sm:gap-6">
-  <CButton to="/Experience" ref={experienceRef} duration="1" className=" sm:w-auto">
+  <CButton to="/Experience"  duration="1" className=" sm:w-auto">
     Experience
   </CButton>
-  <CButton to="/projects" ref={projectsRef} duration="2" className=" sm:w-auto">
+  <CButton to="/projects"  duration="2" className=" sm:w-auto">
     Projects
   </CButton>
-  <CButton to="/Skills" ref={skillsRef} duration="3" className="sm:w-auto">
+  <CButton to="/Skills" duration="3" className="sm:w-auto">
     Skills
   </CButton>
-  <CButton to="/Contact" ref={contactRef} duration="4" className="sm:w-auto">
+  <CButton to="/Contact"  duration="4" className="sm:w-auto">
     Contact
   </CButton>
 </section>
