@@ -3,7 +3,7 @@ import ExperienceCard from "../components/ExperienceCard";
 
 const experiences = [
   {
-    title: "2024",
+    title: "Oct 2020 - Jul 2024",
     text: "GOT MY BACHELOR OF COMPUTER SCIENCE",
   },
   {

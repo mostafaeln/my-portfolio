@@ -31,7 +31,7 @@ const projects = [
     desc: "Escape From FCIS is an Infinite Runner game that follows the student AJ who is trying to escape all his college duties and trying to collect money and bonus marks to pass but watch out for the doctor , he is running after you and attacking you with books.",
     video: EFF,
   },
-  ,
+  
   {
     image: RR,
     title: "Roller Madness",

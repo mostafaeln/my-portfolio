@@ -1,7 +1,7 @@
 
 import AnimatedText from "../components/AnimatedText";
 import ProjectsCard from "../components/ProjectsCard.js";
-//import ControlledCarousel from "../components/ProjectsCarousel.js";
+
 function Projects(){
   
 return(
@@ -11,9 +11,7 @@ return(
     <section className=" bg-[#002f7b] h-auto" >
         <ProjectsCard/>
     </section>
-    {/* <div className=" justify-center mt-10 bg-[#002f7b]">
-     <ControlledCarousel/>
-    </div> */}
+  
    
     </div>
 );
