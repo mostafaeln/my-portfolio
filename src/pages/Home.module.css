@@ -1,0 +1,52 @@
+.mydiv{
+    background-color:  #002f7b;
+   display: flex;
+    flex-direction: column;
+    
+}
+
+.myImage {
+    width: 500px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20%; 
+    margin-left: 800px;
+    margin-top: -400px;/* Example style to make it circular */
+  }
+  .mysection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+
+  }
+  .myname{
+    color:#afeb8f;
+    font-size: 60px;
+    width: 30%;
+    margin-left: 175px;
+  }
+  .welcome{
+    align-self: center;
+    color:#afeb8f;
+    font-size: 100px;
+
+
+  }
+  .developer {
+    background-color: white;
+    width:30%;
+  color: #002f7b;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: -50px; 
+
+
+   
+  }
+  .developertext {
+    color:#002f7b;
+    font-size: 35px;
+  }
