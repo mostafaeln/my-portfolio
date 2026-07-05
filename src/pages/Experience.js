@@ -40,7 +40,7 @@ const experiences = [
   },
   {
     title: "May 2026",
-    text : "GOT CHOSEN AS ONE OF THE MOST COMPLIANT EMPLOYEES IN Q1",
+    text : "GOT CHOSEN AS ONE OF THE MOST COMPETENT EMPLOYEES IN Q1",
   }
 ];
 
