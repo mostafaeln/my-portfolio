@@ -1,7 +1,7 @@
 
 import AnimatedText from "../components/AnimatedText";
 import ProjectsCard from "../components/ProjectsCard.js";
-import ControlledCarousel from "../components/ProjectsCarousel.js";
+//import ControlledCarousel from "../components/ProjectsCarousel.js";
 function Projects(){
   
 return(

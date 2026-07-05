@@ -23,7 +23,7 @@ function Home() {
           </h2>
           <div className="bg-white text-[#002f7b] text-[14px] sm:text-[16px] md:text-[18px] font-bold p-4 sm:p-6 md:p-8 rounded-lg mt-6 lg:mt-10">
             <p className={styles.developertext}>
-              <AnimatedText type='easeInOut' text="Game & Frontend Developer" />
+              <AnimatedText type='easeInOut' text="Game & Full Stack Developer" />
             </p>
           </div>
         </div>
@@ -33,13 +33,13 @@ function Home() {
   <CButton to="/Experience" ref={experienceRef} duration="1" className=" sm:w-auto">
     Experience
   </CButton>
-  <CButton to="/projects" duration="2" className=" sm:w-auto">
+  <CButton to="/projects" ref={projectsRef} duration="2" className=" sm:w-auto">
     Projects
   </CButton>
-  <CButton to="/Skills" duration="3" className="sm:w-auto">
+  <CButton to="/Skills" ref={skillsRef} duration="3" className="sm:w-auto">
     Skills
   </CButton>
-  <CButton to="/Contact" duration="4" className="sm:w-auto">
+  <CButton to="/Contact" ref={contactRef} duration="4" className="sm:w-auto">
     Contact
   </CButton>
 </section>

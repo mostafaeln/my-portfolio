@@ -4,7 +4,7 @@ import AnimatedText from "./AnimatedText";
 function ExperienceCard(props) {
   return (
     <motion.div
-      className="justify-items-start w-64 h-72 bg-[#002f7b] rounded-lg flex-col p-4"
+      className="justify-items-start w-64 h-auto bg-[#002f7b] rounded-lg flex-col p-4"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5, type: "spring", stiffness: 100  , delay : props.delay || 0 }}

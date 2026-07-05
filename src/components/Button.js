@@ -7,9 +7,9 @@ function CButton(props) {
   const handleClick = () => {
     navigate(props.to);
   };
-  const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
-  };
+  // const scrollToSection = (ref) => {
+  //   ref.current.scrollIntoView({ behavior: 'smooth' });
+  // };
 
 
   return (
